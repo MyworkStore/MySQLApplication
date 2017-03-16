@@ -11,7 +11,7 @@ public class EditActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.id.layout.activity_edit);
+        setContentView(R.layout.activity_edit);
 
         final TodoList editTodoList = (TodoList) getIntent().getSerializableExtra("editTodoList");
 
